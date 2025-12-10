@@ -1,0 +1,216 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="32" scrolly="-43.00000000000017" scale="0.9">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="Y**Hk$/f=5.1Olx5y(k{">boton01</variable>
+      <variable id="E,{c2S]r;kbLW$Z:xD4O">boton02</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="~fY)t,u=sSm[0*dm|5uw" x="310" y="110">
+      <field name="VAR" id="Y**Hk$/f=5.1Olx5y(k{">boton01</field>
+      <value name="VALUE">
+        <block type="objectList" id="8uBO5fljR@je@jk1deXE">
+          <field name="FIELDNAME">boton1</field>
+        </block>
+      </value>
+      <next>
+        <block type="eventHTMLElem" id="@W+*nZ_xBodUq.S0/@2e">
+          <field name="EVENT">click</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="m]5]9+$}(|(HN5o+`h4I">
+              <field name="TEXT">boton1</field>
+            </shadow>
+            <block type="variables_get" id=".kBh#L~A*b(3(0ttk98_">
+              <field name="VAR" id="Y**Hk$/f=5.1Olx5y(k{">boton01</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="show" id="NM/7[(WVw%3|sg/VYzX`">
+              <value name="VALUE">
+                <shadow type="objectList" id="VGCAoN9^jGI7lW[d~V%1">
+                  <field name="FIELDNAME">img_A1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="show" id="R!|6l8LGQFWht`6*(/tR">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="+6mW:p.N7R|8=%QP{1Bu">
+                      <field name="FIELDNAME">imag_A2</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="show" id="b.my|%g(f,ug_p{S7!-A">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="_U;x7u7XW,=?a9q[k;_:">
+                          <field name="FIELDNAME">imag_A3</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="show" id="~T9wuG%2iGHLXtby:~m$">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="5G$UINF/RTH=7/UCSkm#">
+                              <field name="FIELDNAME">imag_A4</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="hide" id="UTB{+^,Q-;}IcBkk%K)i">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="e7$P:.Be}|Z}n47_Qm{n">
+                                  <field name="FIELDNAME">imag_B1</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="hide" id="`Y9?S3bOfqtX%i((3NSs">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="K[D1/81pSHfiizPs.r+#">
+                                      <field name="FIELDNAME">imag_B2</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="hide" id="%SPA80l4Cakihyx)`xae">
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="}|ZaAnl5_AL4,@P9]-.8">
+                                          <field name="FIELDNAME">imag_B3</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="hide" id="P~vJ`Xv*zD|NfX9]^7vs">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="v#q1tLd#IQpdQy~fm`q{">
+                                              <field name="FIELDNAME">imag_B4</field>
+                                            </shadow>
+                                          </value>
+                                          <next>
+                                            <block type="hide" id="f;A,SIfs{lB{+2U0]yr*">
+                                              <value name="VALUE">
+                                                <shadow type="objectList" id="+s*DC-{H8tF%-ms=:ytL">
+                                                  <field name="FIELDNAME">imag_B5</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="[!{ghF})6%ga9R7P:dbq" x="250" y="490">
+      <field name="VAR" id="E,{c2S]r;kbLW$Z:xD4O">boton02</field>
+      <value name="VALUE">
+        <block type="objectList" id="]|HjnUraYIQLZY@%mkh!">
+          <field name="FIELDNAME">boton2</field>
+        </block>
+      </value>
+      <next>
+        <block type="eventHTMLElem" id="y{19Ei[NJTAyqj(rcjO{">
+          <field name="EVENT">click</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="]?yVbWVk[I3;uM8S|kg7">
+              <field name="TEXT">boton2</field>
+            </shadow>
+            <block type="variables_get" id="}1bwK0Q@;4G3.v_SfWH4">
+              <field name="VAR" id="E,{c2S]r;kbLW$Z:xD4O">boton02</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="show" id="oONBSs~,pA=Diq+9L-X@">
+              <value name="VALUE">
+                <shadow type="objectList" id="qjr]ET](v0B3_!?U9FdW">
+                  <field name="FIELDNAME">imag_B1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="show" id="?n+2QKo{Nx*X*l:hj;dg">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="i(!vsWYA`+%CY_@5m{JY">
+                      <field name="FIELDNAME">imag_B2</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="show" id="VHoy-=.mbTu^7pE,S[e[">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="J_Jj?Iyk*~SyA,e}5}LB">
+                          <field name="FIELDNAME">imag_B3</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="show" id="Vinswr:n8y@=|n#]N@-0">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="a=+nj+G`^BQ_Om]Q!|.o">
+                              <field name="FIELDNAME">imag_B4</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="hide" id="MBTvHm9#Mr)y-3N-D$O3">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="k76S4S.]/W$]RRkB1.~)">
+                                  <field name="FIELDNAME">imag_B5</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="hide" id="ZG$|T~{WrTSX,+/naTr9">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="p.mH`AJl]:u|6zrx/~}A">
+                                      <field name="FIELDNAME">img_A1</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="hide" id="aT$A8/P4i,.Lj%93ej01">
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="T0@O4lTzf6cZ3={`R2+q">
+                                          <field name="FIELDNAME">imag_A2</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="hide" id="ndc7i+P9owZe=h6by_I-">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="T,,b1`a4quCjFW_c2f:L">
+                                              <field name="FIELDNAME">imag_A3</field>
+                                            </shadow>
+                                          </value>
+                                          <next>
+                                            <block type="hide" id="E*dXKnOd(A|b{mLjUgU6">
+                                              <value name="VALUE">
+                                                <shadow type="objectList" id="1=Er/BXA4p=/vI63@j$:">
+                                                  <field name="FIELDNAME">imag_A4</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1226.4" viewport-y="37" viewport-w="829.6" viewport-h="448" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
